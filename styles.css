@@ -104,3 +104,17 @@ main {
 @media screen and (max-width: 480px) {
     /* Add responsive styles here */
 }
+@media screen and (max-width: 768px) {
+    .visiting-card {
+        max-width: 80%; /* Adjust the maximum width as needed */
+        height: auto; /* Maintain the aspect ratio */
+    }
+}
+
+/* Styles for devices with a maximum width of 480px (e.g., smartphones) */
+@media screen and (max-width: 480px) {
+    .visiting-card {
+        max-width: 100%; /* Adjust the maximum width as needed */
+        height: auto; /* Maintain the aspect ratio */
+    }
+}
