@@ -90,3 +90,9 @@ footer {
 main {
     padding: 20px;
 }
+.visiting-card {
+    max-width: 400px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
