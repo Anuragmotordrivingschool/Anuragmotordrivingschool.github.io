@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe5b3; /* Light yellow */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+header {
+    background-color: #bf9000; /* Dark orange */
+    color: #ffffff; /* White */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFA500; /* Change the color on hover */
+}
+
+.page-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.page-section .container {
+    text-align: left;
+}
+
+.page-section {
+    background-color: #fff; /* White */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.page-section p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.page-section ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.page-section ul li {
+    margin-bottom: 20px;
+}
+
+.page-section ul li strong {
+    font-size: 24px;
+    color: #333;
+}
+
+footer {
+    background-color: #bf9000; /* Dark orange */
+    color: #ffffff; /* White */
+    text-align: center;
+    padding: 10px;
+}
+main {
+    padding: 20px;
+}
+.visiting-card {
+    max-width: 400px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
