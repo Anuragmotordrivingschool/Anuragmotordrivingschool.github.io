@@ -96,3 +96,11 @@ main {
     display: block; /* Ensure the image is displayed as a block element */
     margin: 0 auto; /* Center the image horizontally */
 }
+@media screen and (max-width: 768px) {
+    /* Add responsive styles here */
+}
+
+/* Styles for devices with a maximum width of 480px (e.g., smartphones) */
+@media screen and (max-width: 480px) {
+    /* Add responsive styles here */
+}
